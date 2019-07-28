@@ -30,6 +30,7 @@ __git_clone_bundle tpope/vim-fugitive fugitive
 __git_clone_bundle tpope/vim-rhubarb rhubarb
 __git_clone_bundle tpope/vim-repeat repeat
 __git_clone_bundle tpope/vim-scriptease scriptease
+__git_clone_bundle tpope/vim-sensible sensible
 __git_clone_bundle tpope/vim-surround surround
 __git_clone_bundle tpope/vim-unimpaired unimpaired
 __git_clone_bundle tpope/vim-dispatch dispatch

@@ -58,3 +58,5 @@ __clone tpope/vim-scriptease scriptease
 __clone tpope/vim-sensible sensible
 __clone tpope/vim-surround surround
 __clone tpope/vim-unimpaired unimpaired
+__clone tpope/vim-dadbod dasbod
+

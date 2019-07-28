@@ -4,8 +4,8 @@ BBLUE="\033[01;34m"
 BGREEN="\033[01;32m"
 DEFAULT="\033[00m"
 
-# __git_clone_bundle repo name
-__git_clone_bundle() {
+# __clone repo name
+__clone() {
   local repo=$1
   local name=$2
   local des="$HOME/.vim/bundle/$name"
@@ -22,39 +22,39 @@ __git_clone_bundle() {
   fi
 }
 
-__git_clone_bundle tpope/vim-pathogen pathogen
-__git_clone_bundle tpope/vim-abolish abolish
-__git_clone_bundle tpope/vim-commentary commentary
-__git_clone_bundle tpope/vim-endwise endwise
-__git_clone_bundle tpope/vim-fugitive fugitive
-__git_clone_bundle tpope/vim-rhubarb rhubarb
-__git_clone_bundle tpope/vim-repeat repeat
-__git_clone_bundle tpope/vim-scriptease scriptease
-__git_clone_bundle tpope/vim-sensible sensible
-__git_clone_bundle tpope/vim-surround surround
-__git_clone_bundle tpope/vim-unimpaired unimpaired
-__git_clone_bundle tpope/vim-dispatch dispatch
-__git_clone_bundle tpope/vim-eunuch eunuch
-__git_clone_bundle Jeanhwea/vim-matchit matchit
-__git_clone_bundle Jeanhwea/vim-ultisnips-snippets ultisnips-snippets
-__git_clone_bundle Jeanhwea/vim-viz syntax-viz
-__git_clone_bundle SirVer/ultisnips ultisnips
-__git_clone_bundle airblade/vim-gitgutter gitgutter
-__git_clone_bundle altercation/vim-colors-solarized colorscheme-solarized
-__git_clone_bundle bps/vim-textobj-python textobj-python
-__git_clone_bundle ctrlpvim/ctrlp.vim ctrlp
-__git_clone_bundle fs111/pydoc.vim pydoc
-__git_clone_bundle godlygeek/tabular tabular
-__git_clone_bundle hdima/python-syntax syntax-python
-__git_clone_bundle jceb/vim-textobj-uri textobj-uri
-__git_clone_bundle kana/vim-textobj-user textobj-user
-__git_clone_bundle majutsushi/tagbar tagbar
-__git_clone_bundle mileszs/ack.vim ack
-__git_clone_bundle plasticboy/vim-markdown syntax-markdown
-__git_clone_bundle rking/ag.vim ag
-__git_clone_bundle scrooloose/syntastic syntastic
-__git_clone_bundle sgur/vim-textobj-parameter textobj-parameter
-__git_clone_bundle sjl/gundo.vim gundo
-__git_clone_bundle tacahiroy/ctrlp-funky ctrlp-funky
-__git_clone_bundle tommcdo/vim-exchange exchange
-__git_clone_bundle tpope/vim-rails rails
+__clone Jeanhwea/vim-matchit matchit
+__clone Jeanhwea/vim-ultisnips-snippets ultisnips-snippets
+# __clone Jeanhwea/vim-viz syntax-viz
+__clone SirVer/ultisnips ultisnips
+__clone airblade/vim-gitgutter gitgutter
+__clone altercation/vim-colors-solarized colorscheme-solarized
+__clone bps/vim-textobj-python textobj-python
+__clone ctrlpvim/ctrlp.vim ctrlp
+__clone fs111/pydoc.vim pydoc
+__clone godlygeek/tabular tabular
+__clone hdima/python-syntax syntax-python
+__clone jceb/vim-textobj-uri textobj-uri
+__clone kana/vim-textobj-user textobj-user
+__clone majutsushi/tagbar tagbar
+__clone mileszs/ack.vim ack
+__clone plasticboy/vim-markdown syntax-markdown
+__clone rking/ag.vim ag
+__clone scrooloose/syntastic syntastic
+__clone sgur/vim-textobj-parameter textobj-parameter
+__clone sjl/gundo.vim gundo
+__clone tacahiroy/ctrlp-funky ctrlp-funky
+__clone tommcdo/vim-exchange exchange
+__clone tpope/vim-abolish abolish
+__clone tpope/vim-commentary commentary
+__clone tpope/vim-dispatch dispatch
+__clone tpope/vim-endwise endwise
+__clone tpope/vim-eunuch eunuch
+__clone tpope/vim-fugitive fugitive
+__clone tpope/vim-pathogen pathogen
+__clone tpope/vim-rails rails
+__clone tpope/vim-repeat repeat
+__clone tpope/vim-rhubarb rhubarb
+__clone tpope/vim-scriptease scriptease
+__clone tpope/vim-sensible sensible
+__clone tpope/vim-surround surround
+__clone tpope/vim-unimpaired unimpaired

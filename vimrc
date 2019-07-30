@@ -1,14 +1,14 @@
 if &cp || v:version < 700 | finish | endif
-if !isdirectory(expand('~/.vim/bundle/pathogen')) | finish | endif
 if &cp | set nocp | endif
 
-" setup leader key, this must be set at startup.
 let mapleader="\\"
 let g:mapleader="\\"
 let maplocalleader=","
 let g:maplocalleader=","
 
+if !isdirectory(expand('~/.vim/bundle/pathogen')) | finish | endif
 set rtp+=~/.vim/bundle/pathogen
-execute pathogen#infect()
+exe pathogen#infect()
 
-" vim:set ft=vim et sw=2:
+" vim:set ft=vim et sw=2 fdm=marker:
+

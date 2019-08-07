@@ -11,4 +11,3 @@ set rtp+=~/.vim/bundle/pathogen
 exe pathogen#infect()
 
 " vim:set ft=vim et sw=2 fdm=marker:
-

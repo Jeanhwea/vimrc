@@ -16,5 +16,5 @@ set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 
 if &history < 5000 | set history=5000 | endif
 
-if has('clipboard') | set clipboard=unnamd | endif
+if has('clipboard') | set clipboard=unnamed | endif
 

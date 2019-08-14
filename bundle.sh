@@ -23,9 +23,9 @@ _clone() {
 }
 
 _clone Jeanhwea/vim-matchit matchit
-_clone Jeanhwea/vim-ultisnips-snippets ultisnips-snippets
+# _clone Jeanhwea/vim-ultisnips-snippets ultisnips-snippets
 # _clone Jeanhwea/vim-viz syntax-viz
-_clone SirVer/ultisnips ultisnips
+# _clone SirVer/ultisnips ultisnips
 _clone airblade/vim-gitgutter gitgutter
 _clone altercation/vim-colors-solarized colorscheme-solarized
 _clone bps/vim-textobj-python textobj-python
